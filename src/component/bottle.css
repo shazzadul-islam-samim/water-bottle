@@ -1,0 +1,26 @@
+.bottle-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    
+    
+}
+.bottle{
+    margin:20px;
+    border: 2px solid paleturquoise;
+    padding:15px;
+    border-radius: 20px;
+}
+.bottle img{
+    width: 90%;
+    height:100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.price{
+    font-style:italic
+}
